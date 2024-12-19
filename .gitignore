@@ -1,3 +1,19 @@
+# Auto-generated and browser-specific files
+BraveSoftware/
+*.log
+*.ldb
+*.blob
+
+# KDE auto-generated configs
+plasma-*
+kwinoutputconfig.json
+kcminputrc
+dconf/
+user-dirs.*
+systemd/
+
+
+
 # Auto-generated KDE configs
 plasma-*
 kwinoutputconfig.json
