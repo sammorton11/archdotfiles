@@ -1,37 +1,33 @@
-# Auto-generated and browser-specific files
-BraveSoftware/
-*.log
-*.ldb
-*.blob
-
 # KDE auto-generated configs
 plasma-*
 kwinoutputconfig.json
 kcminputrc
-dconf/
-user-dirs.*
-systemd/
-
-
-
-# Auto-generated KDE configs
-plasma-*
-kwinoutputconfig.json
-kdeglobals
+kactivitymanagerd*
 kded*.rc
+kglobalshortcutsrc
+kfontinstuirc
+konsolerc
 ksmserverrc
-konsolesshconfig
+ktimezonedrc
+kwalletrc
+kwinrc
 
-# Systemd user targets
-systemd/
-
-# User directories
+# User directory configs
 user-dirs.*
 
-# Dconf settings
+# Auto-generated GTK configs
+gtkrc
+gtkrc-2.0
+
+# System/session-specific configs
+session/
+systemmonitorrc
+systemsettingsrc
+
+# Dconf
 dconf/
 
-# Auto-generated files
-Trolltech.conf
+# Brave browser cache or settings
+BraveSoftware/
 
 
