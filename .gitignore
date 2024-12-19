@@ -1,0 +1,21 @@
+# Auto-generated KDE configs
+plasma-*
+kwinoutputconfig.json
+kdeglobals
+kded*.rc
+ksmserverrc
+konsolesshconfig
+
+# Systemd user targets
+systemd/
+
+# User directories
+user-dirs.*
+
+# Dconf settings
+dconf/
+
+# Auto-generated files
+Trolltech.conf
+
+
