@@ -1,0 +1,6 @@
+return {
+  {
+    "frenzyexists/aquarium-vim",
+  }
+}
+

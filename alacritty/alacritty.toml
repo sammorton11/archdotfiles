@@ -1,0 +1,39 @@
+[cursor]
+style = "Block"
+
+[font]
+size = 13.0
+normal = { family = "Hack Nerd Font Mono", style = "Regular" }
+offset = { x = -1, y = 1 }
+
+[window.dimensions]
+columns = 100
+lines = 25
+
+[window.padding]
+x = 2 
+y = 2 
+
+[window]
+decorations = "None"
+dynamic_padding = true
+opacity = 0.95
+blur = false
+
+[terminal.shell]
+program = "zsh"
+args = ["-l"]
+
+[colors]
+cursor = { text = "#404040", cursor = "#f3fef0" }
+transparent_background_colors = true
+
+[colors.primary]
+background = "#151515"
+
+[mouse]
+bindings = [
+   { mouse = "Right", mods = "Control", action = "Paste" },
+]
+
+[terminal]

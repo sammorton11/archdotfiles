@@ -1,0 +1,48 @@
+2024/12/19-08:51:22.274 c88 Reusing MANIFEST /home/sammorton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/19-08:51:22.274 c88 Recovering log #30
+2024/12/19-08:51:22.280 c88 Reusing old log /home/sammorton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000030.log 
+2024/12/19-08:54:26.996 c89 Level-0 table #35: started
+2024/12/19-08:54:27.013 c89 Level-0 table #35: 1813107 bytes OK
+2024/12/19-08:54:27.018 c89 Delete type=0 #30
+2024/12/19-09:01:34.317 c89 Compacting 1@1 + 1@2 files
+2024/12/19-09:01:34.331 c89 Generated table #36@1: 339 keys, 70085 bytes
+2024/12/19-09:01:34.331 c89 Compacted 1@1 + 1@2 files => 70085 bytes
+2024/12/19-09:01:34.335 c89 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/19-09:44:49.096 c89 Level-0 table #38: started
+2024/12/19-09:44:49.113 c89 Level-0 table #38: 1796268 bytes OK
+2024/12/19-09:44:49.118 c89 Delete type=2 #32
+2024/12/19-09:44:49.118 c89 Delete type=2 #35
+2024/12/19-09:44:49.118 c89 Delete type=0 #34
+2024/12/19-09:45:18.641 c88 Compacting 1@1 + 1@2 files
+2024/12/19-09:45:18.655 c88 Generated table #39@1: 369 keys, 68336 bytes
+2024/12/19-09:45:18.655 c88 Compacted 1@1 + 1@2 files => 68336 bytes
+2024/12/19-09:45:18.658 c88 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/19-09:45:18.659 c88 Delete type=2 #38
+2024/12/19-09:45:18.659 c88 Delete type=2 #36
+2024/12/19-10:27:17.538 c89 Level-0 table #41: started
+2024/12/19-10:27:17.555 c89 Level-0 table #41: 1498291 bytes OK
+2024/12/19-10:27:17.560 c89 Delete type=0 #37
+2024/12/19-10:36:11.957 c8b Compacting 1@1 + 1@2 files
+2024/12/19-10:36:11.970 c8b Generated table #42@1: 419 keys, 97725 bytes
+2024/12/19-10:36:11.970 c8b Compacted 1@1 + 1@2 files => 97725 bytes
+2024/12/19-10:36:11.974 c8b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/19-10:36:11.974 c8b Delete type=2 #39
+2024/12/19-10:36:11.974 c8b Delete type=2 #41
+2024/12/19-13:16:21.420 c89 Level-0 table #44: started
+2024/12/19-13:16:21.430 c89 Level-0 table #44: 1845343 bytes OK
+2024/12/19-13:16:21.435 c89 Delete type=0 #40
+2024/12/19-13:25:39.225 c89 Compacting 1@1 + 1@2 files
+2024/12/19-13:25:39.241 c89 Generated table #45@1: 436 keys, 101560 bytes
+2024/12/19-13:25:39.242 c89 Compacted 1@1 + 1@2 files => 101560 bytes
+2024/12/19-13:25:39.246 c89 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/19-13:25:39.246 c89 Delete type=2 #44
+2024/12/19-13:25:39.246 c89 Delete type=2 #42
+2024/12/19-16:37:09.587 c89 Level-0 table #47: started
+2024/12/19-16:37:09.607 c89 Level-0 table #47: 1824993 bytes OK
+2024/12/19-16:37:09.612 c89 Delete type=0 #43
+2024/12/19-16:49:36.073 c89 Compacting 1@1 + 1@2 files
+2024/12/19-16:49:36.088 c89 Generated table #48@1: 432 keys, 67283 bytes
+2024/12/19-16:49:36.088 c89 Compacted 1@1 + 1@2 files => 67283 bytes
+2024/12/19-16:49:36.092 c89 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/19-16:49:36.092 c89 Delete type=2 #47
+2024/12/19-16:49:36.092 c89 Delete type=2 #45

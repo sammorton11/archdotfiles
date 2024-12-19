@@ -1,0 +1,7 @@
+2024/12/19-08:53:10.078 c88 Reusing MANIFEST /home/sammorton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/19-08:53:10.078 c88 Recovering log #3
+2024/12/19-08:53:10.078 c88 Reusing old log /home/sammorton/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/000003.log 
+2024/12/19-13:54:57.919 c88 Level-0 table #5: started
+2024/12/19-13:54:57.924 c88 Level-0 table #5: 4168 bytes OK
+2024/12/19-13:54:57.928 c88 Delete type=0 #3
+2024/12/19-13:54:57.929 c88 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,33 @@
+# ~/.config/starship.toml
+
+format = """\
+[░▒▓](bg:#151515 fg:#A1C7A6)\
+[ 󰣇 ](bg:#A1C7A6 fg:#0F0F0F)\
+[](fg:#A1C7A6 bg:#7895A3)\
+[ $time](bg:#7895A3 fg:#E0E0F2)\
+[](fg:#7895A3 bg:#B5D5E3)\
+[ $directory ](bg:#B5D5E3 fg:#040404)\
+[](fg:#B5D5E3 bg:#EDAD95)\
+[   $git_branch](bg:#EDAD95 fg:#040404)\
+[ ](fg:#EDAD95 bg:#151515)\
+"""
+
+[time]
+disabled = false
+time_format = "%H:%M"
+style = "bg:#7895A3 fg:#E0E0F2"
+format = "[ $time ]($style)"
+
+[directory]
+style = "bg:#B5D5E3 fg:#040404"
+format = "[ $path]($style)"
+
+[git_branch]
+symbol = " "
+style = "bg:#EDAD95 fg:#040404"
+format = "[ $symbol$branch ]($style)"
+
+[character]
+success_symbol = "[](fg:#0F0F0F)[➜](bold green)"
+error_symbol = "[](fg:#0F0F0F)[✗](bold red)"
+
