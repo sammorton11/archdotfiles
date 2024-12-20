@@ -22,3 +22,22 @@ gtk-4.0/
 # Other system files
 user-dirs.*
 
+dotfiles/
+github-copilot
+go/telemtry/local
+kate/externaltools/
+kde.org/
+kdedefaults/
+libaccounts-glib/
+xsettingsd/
+baloofilerc
+bluedevilglobalrc
+katerc
+katevirc
+kconf_updaterrc
+kded5rc
+kded6rc
+konsolesshconfig
+powermanagementprofilesrc
+systemmonitorrc
+
