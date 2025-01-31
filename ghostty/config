@@ -1,0 +1,66 @@
+# Colors
+#background = #100E23
+#background = #01151a
+background = #121111
+foreground = #ffffff
+#cursor-color = #FAFFA7
+cursor-color = #FFFAFF
+selection-background = #FAFFA7
+selection-foreground = #01151a
+
+# Font
+#font-family = "CaskaydiaMono Nerd Font Mono"
+#font-family = "Agave Nerd Font Propo"
+#font-family = "Cousine Nerd Font"
+font-family = "Victor Mono Nerd Font"
+font-size = 15
+font-style = "Light"
+
+clipboard-read = allow
+clipboard-write = allow
+
+# Cursor
+cursor-style = block
+cursor-style-blink = true
+
+# Window Settings
+window-padding-x = 1
+window-padding-y = 1
+
+window-decoration = true 
+window-theme = ghostty
+window-titlebar-background = #121111
+
+background-blur-radius = 50
+background-opacity = 0.80
+
+# Shell
+command = zsh
+shell-integration = zsh
+shell-integration-features = title,sudo,no-cursor
+
+
+gtk-tabs-location = "hidden"
+# gtk-titlebar = true
+gtk-wide-tabs = false
+adw-toolbar-style = "flat"
+
+# Keybindings
+keybind = "ctrl+shift+r=reload_config"
+keybind = "ctrl+shift+n=new_tab"
+keybind = "ctrl+shift+w=close_window"
+
+# Scrolling
+scrollback-limit = 100000
+
+# Theme
+# theme = default
+
+auto-update = check
+
+#custom-shader = "/home/sammorton/shaders/psy-fractal.glsl"
+#custom-shader = "/home/sammorton/shaders/cubes.glsl"
+#custom-shader = "/home/sammorton/shaders/spotlight.glsl"
+#custom-shader = "/home/sammorton/shaders/lavalamp.glsl"
+
+#custom-shader-animation = true

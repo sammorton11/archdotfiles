@@ -1,33 +1,32 @@
 # ~/.config/starship.toml
-
+# Global format for Starship prompt
 format = """\
-[░▒▓](bg:#151515 fg:#A1C7A6)\
-[ 󰣇 ](bg:#A1C7A6 fg:#0F0F0F)\
-[](fg:#A1C7A6 bg:#7895A3)\
-[ $time](bg:#7895A3 fg:#E0E0F2)\
-[](fg:#7895A3 bg:#B5D5E3)\
-[ $directory ](bg:#B5D5E3 fg:#040404)\
-[](fg:#B5D5E3 bg:#EDAD95)\
-[   $git_branch](bg:#EDAD95 fg:#040404)\
-[ ](fg:#EDAD95 bg:#151515)\
-"""
+$time \
+$directory \
+$git_branch \
+$character"""
 
+# Time module
 [time]
 disabled = false
 time_format = "%H:%M"
-style = "bg:#7895A3 fg:#E0E0F2"
-format = "[ $time ]($style)"
+style = "fg:#83C193"  # Changed to forestbones light color
+format = "[  $time]($style)"
 
+# Directory module
 [directory]
-style = "bg:#B5D5E3 fg:#040404"
-format = "[ $path]($style)"
+style = "fg:#B7CDD8"  # Changed to forestbones medium color
+format = "[ $path]($style)"
 
+# Git branch module
 [git_branch]
-symbol = " "
-style = "bg:#EDAD95 fg:#040404"
-format = "[ $symbol$branch ]($style)"
+symbol = " "
+style = "fg:#AFD6D6"  # Changed to forestbones accent color
+format = "[$symbol$branch]($style)"
 
+# Character module
 [character]
-success_symbol = "[](fg:#0F0F0F)[➜](bold green)"
-error_symbol = "[](fg:#0F0F0F)[✗](bold red)"
+success_symbol = "[➜ ](fg:#D69AB7)"  # Changed to forestbones success color
+error_symbol = "[✗](bold #E67C7F)"    # Changed to forestbones error color
+style = "fg:#B0CE7B"                  # Changed to forestbones medium color
 

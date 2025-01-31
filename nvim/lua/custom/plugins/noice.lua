@@ -1,6 +1,6 @@
 -- lazy.nvim
 return {
-   "folke/noice.nvim",
+   --[[ "folke/noice.nvim",
    event = "VeryLazy",
    opts = {
       cmdline = {
@@ -34,5 +34,5 @@ return {
    dependencies = {
       "MunifTanjim/nui.nvim", -- Required for Noice UI
       "rcarriga/nvim-notify", -- Optional: notification plugin
-   },
+   }, ]]
 }
