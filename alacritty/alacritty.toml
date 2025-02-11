@@ -1,13 +1,77 @@
 [cursor]
-style = "Block"
+style = {shape = "Block", blinking = "On"}
+blink_interval = 600
+blink_timeout = 0
+
+[colors.selection]
+text = "#101010"      # Selected text color
+background = "#D48688" # Selection background color
 
 [font]
-size = 13.0
-normal = { family = "Hack Nerd Font Mono", style = "Regular" }
-offset = { x = -1, y = 1 }
+size = 14.0
+# normal = { family = "M+CodeLat60 Nerd Font", style = "Regular" }
+# italic = { family = "M+CodeLat60 Nerd Font", style = "Regular" }
+# normal = { family = "Hack Nerd Font Mono", style = "Regular" }
+# italic = { family = "Hack Nerd Font Mono", style = "Regular" }
+# normal = { family = "ZedMono Nerd Font Mono", style = "Regular" }
+
+#normal = { family = "Agave Nerd Font Propo", style = "regular" }
+#italic = { family = "Agave Nerd Font Propo", style = "Regular" }
+#normal = { family = "bitstromwera nerd font propo", style = "regular" }
+#italic = { family = "BitstromWera Nerd Font Propo", style = "Regular" }
+
+# bold = { family = "BitstromWera Nerd Font Propo", style = "Bold" }
+# bold_italic = { family = "BitstromWera Nerd Font Propo", style = "Bold" }
+
+#normal = { family = "Lilex Nerd Font", style = "Light" }
+#italic = { family = "Lilex Nerd Font", style = "Light" }
+#normal = { family = "FiraCode Nerd Font Mono", style = "Light" }
+#italic = { family = "FiraCode Nerd Font Mono", style = "Light" }
+
+# normal = { family = "BlexMono Nerd Font", style = "Light" }
+# italic = { family = "BlexMono Nerd Font", style = "Light" }
+
+#normal = { family = "CommitMono Nerd Font", style = "Regular" }
+#italic = { family = "CommitMono Nerd Font", style = "Regular" }
+
+# normal = { family = "D2CodingLigature Nerd Font Mono", style = "Regular" }
+
+#normal = { family = "SauceCodePro Nerd Font Mono", style = "Regular" }
+#italic = { family = "SauceCodePro Nerd Font Mono", style = "Regular" }
+
+# normal = { family = "EnvyCodeR Nerd Font", style = "Regular" }
+# italic = { family = "EnvyCodeR Nerd Font", style = "Regular" }
+# normal = { family = "iMWritingMono Nerd Font Propo", style = "Regular" }
+# italic = { family = "iMWritingMono Nerd Font Propo", style = "Regular" }
+
+#normal = { family = "CaskaydiaMono Nerd Font Mono", style = "Regular" }
+#italic = { family = "CaskaydiaCove Nerd Font Mono", style = "Light" }
+
+# FAVORITE
+#normal = { family = "CaskaydiaCove Nerd Font Mono", style = "Light" }
+#italic = { family = "CaskaydiaCove Nerd Font Mono", style = "Light" }
+#normal = { family = "Cousine Nerd Font", style = "Regular" }
+#italic = { family = "Cousine Nerd Font", style = "Regular" }
+
+#normal = { family = "GeistMono Nerd Font", style = "Light" }
+#italic = { family = "GeistMono Nerd Font", style = "Light" }
+#normal = { family = "FiraMono Nerd Font", style = "Light" }
+#italic = { family = "FiraMono Nerd Font", style = "Light" }
+#normal = { family = "Hasklug Nerd Font", style = "Regular" }
+#italic = { family = "Hasklug Nerd Font", style = "Regular" }
+#normal = { family = "JetBrainsMono Nerd Font", style = "Extra Light" }
+#italic = { family = "JetBrainsMono Nerd Font", style = "Extra Light" }
+
+normal = { family = "Victor Mono Nerd Font", style = "Regular" }
+italic = { family = "Victor Mono Nerd Font", style = "Regular" }
+bold_italic = { family = "Victor Mono Nerd Font", style = "Regular" }
+#normal = { family = "Roboto Mono Nerd Font", style = "Light" }
+#italic = { family = "Roboto Mono Nerd Font", style = "Light" }
+
+offset = { x = 0, y = -2 }
 
 [window.dimensions]
-columns = 100
+columns = 120
 lines = 25
 
 [window.padding]
@@ -15,25 +79,37 @@ x = 2
 y = 2 
 
 [window]
-decorations = "None"
+#decorations = "None"
 dynamic_padding = true
-opacity = 0.95
-blur = false
+opacity = 0.77
+blur = true
 
 [terminal.shell]
 program = "zsh"
 args = ["-l"]
 
 [colors]
-cursor = { text = "#404040", cursor = "#f3fef0" }
+cursor = { text = "#404040", cursor = "#FFFAFF" }
 transparent_background_colors = true
 
 [colors.primary]
-background = "#151515"
+# Dark sweet-fusion bg
+#background = "#151515"
+#background = "#011111"
+#background = "#01151a"
+# Dark embark bg background = "#1e1c31"
+#background = "#100E23"
+background = "#121111"
 
 [mouse]
 bindings = [
-   { mouse = "Right", mods = "Control", action = "Paste" },
+  { mouse = "Right", mods = "Control", action = "Paste" },
+  { mouse = "Middle", action = "PasteSelection" }
 ]
 
-[terminal]
+[scrolling]
+history = 10000
+multiplier = 3
+
+[env]
+TERM = "xterm-256color"
