@@ -5,16 +5,26 @@ background = #121111
 foreground = #ffffff
 #cursor-color = #FAFFA7
 cursor-color = #FFFAFF
-selection-background = #FAFFA7
-selection-foreground = #01151a
+
+#Citrus mist
+#selection-background = #FAFFA7
+#selection-foreground = #01151a
+
+#Forestbones
+selection-background = #D48688
+selection-foreground = #101010
 
 # Font
 #font-family = "CaskaydiaMono Nerd Font Mono"
 #font-family = "Agave Nerd Font Propo"
 #font-family = "Cousine Nerd Font"
-font-family = "Victor Mono Nerd Font"
+font-family = "VictorMono Nerd Font"
 font-size = 15
-font-style = "Light"
+font-feature = "calt=1"
+font-style = "Regular"
+font-style-bold = "Bold"
+font-style-italic = "Regular"     # This makes italics use Regular instead
+font-style-bold-italic = "Bold"   # This makes bold italics use Bold instead
 
 clipboard-read = allow
 clipboard-write = allow
@@ -24,15 +34,17 @@ cursor-style = block
 cursor-style-blink = true
 
 # Window Settings
-window-padding-x = 1
+window-padding-x = 2
 window-padding-y = 1
 
 window-decoration = true 
 window-theme = ghostty
 window-titlebar-background = #121111
+window-width = 118
+window-height = 24
 
-background-blur-radius = 50
-background-opacity = 0.80
+background-blur-radius = 55
+background-opacity = 0.98 
 
 # Shell
 command = zsh
@@ -40,8 +52,9 @@ shell-integration = zsh
 shell-integration-features = title,sudo,no-cursor
 
 
-gtk-tabs-location = "hidden"
-# gtk-titlebar = true
+#gtk-tabs-location = "hidden"
+gtk-tabs-location = "bottom"
+gtk-titlebar = true
 gtk-wide-tabs = false
 adw-toolbar-style = "flat"
 
@@ -49,6 +62,7 @@ adw-toolbar-style = "flat"
 keybind = "ctrl+shift+r=reload_config"
 keybind = "ctrl+shift+n=new_tab"
 keybind = "ctrl+shift+w=close_window"
+# keybind = "ctrl+shift+s=pane-split"
 
 # Scrolling
 scrollback-limit = 100000

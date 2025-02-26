@@ -1,6 +1,6 @@
 return {
     {
-        "mcchrish/zenbones.nvim",
+        "sammorton11/zenbones.nvim",
         name = "zenbones",
         priority = 1000,
         lazy = false,

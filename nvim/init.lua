@@ -546,7 +546,7 @@ local on_attach = function(_, bufnr)
 end
 
 local servers = {
-    clangd = { 'c' },
+    clangd = { 'c', 'cpp' },
     gopls = { filetypes = { 'go' } },
     pyright = { filetypes = { 'py' } },
     rust_analyzer = {},
